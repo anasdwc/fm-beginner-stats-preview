@@ -36,7 +36,7 @@ main {
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
   position: absolute;
-  opacity: 0.8;
+  opacity: 0.75;
   mix-blend-mode: multiply;
 }
 .img-wrap img {
