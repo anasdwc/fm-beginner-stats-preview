@@ -10,6 +10,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
 - [Author](#author)
 
 ## Overview
@@ -38,6 +39,12 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+
+### What I learned
+
+Dapat saran untuk memanfaatkan `mix-blend-mode` di CSS oleh [Frontend Mentor | vcarames's profile](https://www.frontendmentor.io/profile/vcarames).
+
+Hasilnya sama dengan yg ada di design Frontend Mentor (FEM). Dan menarik baru tau kalau di CSS ada atribut `mix-blend-mode`
 
 ## Author
 

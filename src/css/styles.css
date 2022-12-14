@@ -69,16 +69,17 @@ main {
   margin: 1.5rem 0;
 }
 
-.stats {
+.stats ul {
   display: grid;
   gap: 2rem;
+  list-style-type: none;
 }
-.stats .stats-num {
+.stats ul .stats-num {
   font-weight: 700;
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
-.stats .stats-desc {
+.stats ul .stats-desc {
   text-transform: uppercase;
   font-family: "Lexend Deca";
   color: hsla(0deg, 0%, 100%, 0.6);
@@ -114,7 +115,7 @@ main {
     text-align: left;
     align-content: space-around;
   }
-  .content .stats {
+  .content .stats ul {
     grid-template-columns: repeat(3, 1fr);
   }
 }
