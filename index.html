@@ -28,10 +28,27 @@
   </head>
   <body>
     <main>
-      <div class="img-wrap"></div>
+      <div class="img-wrap">
+        <picture>
+          <source
+            media="(min-width: 1000px)"
+            srcset="./images/image-header-desktop.jpg"
+          />
+          <source srcset="./images/image-header-mobile.jpg" />
+          <img
+            src="./images/image-header-mobile.jpg"
+            alt="Illustration header"
+          />
+        </picture>
+        <div class="overlay"></div>
+      </div>
       <div class="content">
         <div class="content-desc">
-          <h1>Get insights that help your business grow.</h1>
+          <h1>
+            Get
+            <span class="purple">insights</span>
+            that help your business grow.
+          </h1>
           <p>
             Discover the benefits of data analytics and make better decisions
             regarding revenue, customer experience, and overall efficiency.
@@ -40,28 +57,31 @@
         <div class="stats">
           <p>
             <span class="stats-num">10k+</span>
+            <br />
             <span class="stats-desc">companies</span>
           </p>
           <p>
             <span class="stats-num">314</span>
+            <br />
             <span class="stats-desc">templates</span>
           </p>
           <p>
             <span class="stats-num">12m+</span>
+            <br />
             <span class="stats-desc">queries</span>
           </p>
         </div>
       </div>
     </main>
 
-    <div class="attribution">
+    <footer class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
         Frontend Mentor
       </a>
       . Coded by
-      <a href="#">Your Name Here</a>
+      <a href="https://github.com/anasdwc">Annas Dwi</a>
       .
-    </div>
+    </footer>
   </body>
 </html>
